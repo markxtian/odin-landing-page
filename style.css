@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -64,7 +66,7 @@ body {
 .left1 {
     font-size: 24px;
     font-weight: bold;
-  
+    
 
 
 
@@ -72,6 +74,7 @@ body {
 
 .right1 {
     font-size: 18px;
+    color: #ebe7eb;
  
 
 
@@ -124,6 +127,8 @@ body {
     align-items: flex-start;
     
     max-height:fit-content;
+    color: #ebe7eb;
+ 
     
 }
 
@@ -297,17 +302,19 @@ img {
 
 .quote1 {
     width: 900px;
-    font-size: 38px;
+    font-size: 36px;
     font-style: italic;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
-#quoteby {
+.quoteby {
     width: 900px;
-    font-size: 24px;
-    font-style: bolder;
+    font-size: 28px;
+    font-weight: bolder;
     text-align: right;
-
+    font-family: Tahoma, sans-serif;
 
 }
 
